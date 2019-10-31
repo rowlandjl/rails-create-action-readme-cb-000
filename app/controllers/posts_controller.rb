@@ -13,5 +13,6 @@ class PostsController < ApplicationController
 
   # add create method here
   def create 
+    Post.create()
   end 
 end
